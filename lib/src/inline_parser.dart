@@ -29,7 +29,7 @@ class InlineParser {
     TagSyntax(r'\*+', requiresDelimiterRun: true),
     // Parse "__strong__" and "_emphasis_" tags.
     TagSyntax(r'_+', requiresDelimiterRun: true),
-    CodeSyntax(),
+    // CodeSyntax(),
     // We will add the LinkSyntax once we know about the specific link resolver.
   ]);
 
